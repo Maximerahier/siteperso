@@ -659,181 +659,269 @@ section
 }
 .text
 {
- font-size: 15px;
- line-height: 21px;
- letter-spacing: .2px;
+    font-size: 15px;
+    line-height: 21px;
+
+    letter-spacing: .2px;
 }
-.title-text{
-  font-size: 20px;
-  font-weight: 400;
+.title-text
+{
+    font-size: 20px;
+    font-weight: 400;
 }
 /*---------------------------*/
-.dem{
-  position: relative;
-  padding-top: 300px;
+.dem
+{
+    position: relative;
+
+    padding-top: 300px;
 }
-.title-text-dem{
-  margin-bottom: 43px;
-      margin-left: 200px;
+.title-text-dem
+{
+    margin-bottom: 43px;
+    margin-left: 200px;
 }
-.text-dem{
-  width: 460px;
-      margin-left: 200px;
+.text-dem
+{
+    width: 460px;
+    margin-left: 200px;
 }
-.img-dem{
-  width: 560px;
-    height: 346px;
-    background-color: #dadada;
+.img-dem
+{
     position: absolute;
-    bottom: -24px;
     z-index: -1;
     right: 100px;
-}
-/*---------------------------*/
-.dema{
-  padding-top:  263px;
-  position: relative;
-}
-.title-text-dema{
-      margin-left: 99px;
-}
-.text-dema{
- width: 360px;
- margin-left: 500px;
+    bottom: -24px;
 
-}
-.text-dema:first-of-type{
-  margin-bottom: 43px;
-  margin-top: 81px;
+    width: 560px;
+    height: 346px;
 
-}
-.img-dema{
-  width: 260px;
-  height: 346px;
-  background-color: #dadada;
-  position: absolute;
-z-index: -1;
-top: 193px;
-left: 200px;
+    background-color: #dadada;
 }
 /*---------------------------*/
-.arch{
-  position: relative;
-  padding-top: 219px;
-}
-.title-text-arch{
-  float: right;
-}
-.text-arch{
-  width: 460px;
-    margin-left: 600px;
-    clear: both;
-    margin-top: 516px;
-}
-.img-arch{
-  width: 960px;
-height: 516px;
-background-color: #dadada;
-position: absolute;
-top: 179px;
-z-index: -1;
-left: 0px;
-}
-/*---------------------------*/
-.sty{
-  position: relative;
-  padding-top: 173px;
-}
-.title-text-sty{
-  margin-bottom: 23px;
-  margin-left: 99px;
-}
-.text-sty{
-  width: 360px;
-margin-left: 99px;
-}
-.sty-tag{
-margin-top: -124px;
-}
-.sty-tag li{
-  margin-bottom: 22px;
-}
-/*---------------------------*/
-.fon{
-  position: relative;
-  padding-top: 152px;
-}
-.title-text-fon{
-  margin-bottom: 56px;
-margin-left: 99px;
-}
-.list-fon{
-  margin-left: 260px;
-  display: block;
-}
-.list-fon li{
-  float: left;
-  margin-right: 75px;
-  width: 225px;
-  margin-bottom: 27px;
-  font-size: 15px;
-}
-.img-fon{
-  position: absolute;
-width: 100px;
-height: 86px;
-background-color: #dadada;
-bottom: -111px;
-left: 100px;
-}
-
-/*---------------------------*/
-.col{
-  position: relative;
-  padding-top: 140px;
-}
-.title-text-col{
-  margin-bottom: 56px;
-  margin-left: 99px;
-}
-.text-col{
-  width: 360px;
-margin-left: 99px;
-}
-.list-col{
-  margin-left: 200px;
-    display: block;
-}
-.list-col li{
-  float: left;
-    margin-right: 110px;
-    width: 92px;
-    margin-bottom: 27px;
-    font-size: 15px;
-    text-align: right;
+.dema
+{
     position: relative;
+
+    padding-top: 263px;
 }
-.list-col li::before{
-  content: '';
-width: 15px;
-height: 15px;
-position: absolute;
-background-color: #dadada;
-top: 0;
-left: 0;
+.title-text-dema
+{
+    margin-left: 99px;
+}
+.text-dema
+{
+    width: 360px;
+    margin-left: 500px;
+}
+.text-dema:first-of-type
+{
+    margin-top: 81px;
+    margin-bottom: 43px;
+}
+.img-dema
+{
+    position: absolute;
+    z-index: -1;
+    top: 193px;
+    left: 200px;
+
+    width: 260px;
+    height: 346px;
+
+    background-color: #dadada;
 }
 /*---------------------------*/
-.log{
+.arch
+{
+    position: relative;
 
+    padding-top: 219px;
 }
-.title-text-log{
-  margin-bottom: 23px;
-  margin-left: 99px;
+.title-text-arch
+{
+    float: right;
 }
-.list-log{
-  width: 100%;
-  display: flex;
+.text-arch
+{
+    clear: both;
+
+    width: 460px;
+    margin-top: 516px;
+    margin-left: 600px;
 }
-.list-log li{
-  
+.img-arch
+{
+    position: absolute;
+    z-index: -1;
+    top: 179px;
+    left: 0;
+
+    width: 960px;
+    height: 516px;
+
+    background-color: #dadada;
+}
+/*---------------------------*/
+.sty
+{
+    position: relative;
+
+    padding-top: 173px;
+}
+.title-text-sty
+{
+    margin-bottom: 23px;
+    margin-left: 99px;
+}
+.text-sty
+{
+    width: 360px;
+    margin-left: 99px;
+}
+.sty-tag
+{
+    margin-top: -124px;
+}
+.sty-tag li
+{
+    margin-bottom: 22px;
+}
+/*---------------------------*/
+.fon
+{
+    position: relative;
+
+    padding-top: 152px;
+}
+.title-text-fon
+{
+    margin-bottom: 56px;
+    margin-left: 99px;
+}
+.list-fon
+{
+    display: block;
+
+    margin-left: 260px;
+}
+.list-fon li
+{
+    font-size: 15px;
+
+    float: left;
+
+    width: 225px;
+    margin-right: 75px;
+    margin-bottom: 27px;
+}
+.img-fon
+{
+    position: absolute;
+    bottom: -111px;
+    left: 100px;
+
+    width: 100px;
+    height: 86px;
+
+    background-color: #dadada;
+}
+
+/*---------------------------*/
+.col
+{
+    position: relative;
+
+    padding-top: 140px;
+}
+.title-text-col
+{
+    margin-bottom: 56px;
+    margin-left: 99px;
+}
+.text-col
+{
+    width: 360px;
+    margin-left: 99px;
+}
+.list-col
+{
+    display: block;
+
+    margin-left: 200px;
+}
+.list-col li
+{
+    font-size: 15px;
+
+    position: relative;
+
+    float: left;
+
+    width: 92px;
+    margin-right: 110px;
+    margin-bottom: 27px;
+
+    text-align: right;
+}
+.list-col li::before
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 15px;
+    height: 15px;
+
+    content: '';
+
+    background-color: #dadada;
+}
+/*---------------------------*/
+.ico
+{
+    padding-top: 140px;
+}
+.title-text-ico
+{
+    margin-bottom: 29px;
+    margin-left: 99px;
+}
+.list-ico
+{
+    display: flex;
+
+    width: 60%;
+    max-width: 700px;
+    margin: 0 auto;
+
+    justify-content: space-between;
+}
+.img-ico
+{
+    width: 84px;
+    height: 84px;
+
+    background-color: #dadada;
+}
+/*---------------------------*/
+.gri
+{
+    padding-top: 170px;
+}
+.title-text-gri
+{
+    float: right;
+
+    margin-right: 212px;
+    margin-bottom: 29px;
+}
+.img-gri
+{
+    clear: both;
+
+    width: 100%;
+    height: 160px;
+
+    background-color: #dadada;
 }
