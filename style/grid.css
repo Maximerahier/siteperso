@@ -1,0 +1,24 @@
+.row {
+    display: flex;
+    width : 100%;
+    max-width: 1160px;
+    margin : 10px auto;
+    flex-wrap: wrap;
+}
+
+.row > div {
+
+}
+
+.w-1 { flex-grow: 1;}
+.w-2 { flex-grow: 2;}
+.w-3 { flex-grow: 3;}
+.w-4 { flex-grow: 4;}
+.w-5 { flex-grow: 5;}
+.w-6 { flex-grow: 6;}
+.w-7 { flex-grow: 7;}
+.w-8 { flex-grow: 8;}
+.w-9 { flex-grow: 9;}
+.w-10 { flex-grow: 10;}
+.w-11 { flex-grow: 11;}
+.w-12 { flex-grow: 12;}
